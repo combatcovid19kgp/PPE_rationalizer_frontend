@@ -33,13 +33,16 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+    height: 2em !important;
+    width: 2em !important;
+    right: 30px !important;
+    top: 25px !important;
+
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: white;
 }
 
 /*
@@ -55,7 +58,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu {
   background: white;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: 1.2em;
   overflow-y: hidden !important;
 }
 
@@ -77,12 +80,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
     color: black;
     display: inline-block;
     text-decoration: none;
-    padding: 1.5em 0.8em;
-    font-size: 1.15em;
+    padding: 1.2em 0.8em;
     font-family: 'Fjalla One', sans-serif;
     transition: transform 0.4s ease-out, -webkit-transform 0.2s ease-out;
     font-weight: bold!important;
-    letter-spacing: 1.5px;
+    letter-spacing: 4px;
 }
 
 /* Individual item on hover*/
