@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './menu.css'
-import { slide as Menu } from 'react-burger-menu'
+import './menu-alt.css'
 import {NavLink} from "react-router-dom";
-import close from '../assets/images/close icon.png'
+import Nav from "react-bootstrap/Nav";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class Menubar extends Component{
     constructor (props){
@@ -11,35 +13,29 @@ class Menubar extends Component{
             menuOpen: false
         }
     }
-    handleStateChange (state) {
-        this.setState({menuOpen: state.isOpen})
-    }
-    closeMenu () {
-        this.setState({menuOpen: false})
-    }
+
     render() {
         return(
-                <Menu disableAutoFocus
-                      pageWrapId={ "page-wrap" }
-                      outerContainerId={ "outer-container"}
-                      isOpen={this.state.menuOpen}
-                      onStateChange={(state) => this.handleStateChange(state)}
-                      width={ '25%' }
-                      customCrossIcon={ <img src={close}  alt= 'Close'/> }
-                >
-                    <NavLink exact id="home" to="/" activeStyle={{ color: "red" }} onClick={() => this.closeMenu()}>
+            <Nav className='Menu col-md-12 d-none d-md-block sidebar'>
+                <Nav.Item id='nav-items'>
+                    <NavLink exact id="nav-item" to="/" activeStyle={{ color: "red" }} >
                         {/*<i className="fa fa-home" aria-hidden="true"/>*/}
                         <span style={{fontWeight:'bold'}}>HOME</span>
                     </NavLink>
-                    <NavLink id="design" to="/demand" activeStyle={{ color: "red" }} onClick={() => this.closeMenu()}>
-                        {/*<i className="fa fa-list-alt" aria-hidden="true"/>*/}
-                        <span>DEMAND</span>
+                </Nav.Item>
+                <Nav.Item id='nav-items'>
+                    <NavLink id="nav-item" to="/demand" activeStyle={{ color: "red" }}>
+                    {/*<i className="fa fa-list-alt" aria-hidden="true"/>*/}
+                    <span>DEMAND</span>
                     </NavLink>
-                    <NavLink id="consumeLogs" to="/ConsumeLogs" activeStyle={{ color: "red" }} onClick={() => this.closeMenu()}>
-                        {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
-                        <span style={{textAlign:'left'}}>CONSUMPTION LOGS</span>
+                </Nav.Item>
+                <Nav.Item id='nav-items'>
+                    <NavLink id="nav-item" to="/ConsumeLogs" activeStyle={{ color: "red" }}>
+                    {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
+                    <span style={{textAlign:'left'}}>LOGS</span>
                     </NavLink>
-                </Menu>
+                </Nav.Item>
+            </Nav>
         )
     }
 }
