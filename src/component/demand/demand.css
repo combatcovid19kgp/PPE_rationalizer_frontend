@@ -1,3 +1,25 @@
-.title{
+.title_header{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    padding: 1em 0.8em;
+    font-size: 2.5em;
+    font-weight: 500;
+    position: relative;
+    left: -1vw;
+}
+.main-demand{
+    font-family: 'Raleway', sans-serif;
+}
+.nav-tabs a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+}
 
+.nav-link.active{
+    border-color: rgba(0,0,0,0.3) rgba(0,0,0,0.3) white !important;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid rgba(0,0,0,0.3);
 }
