@@ -35,6 +35,7 @@
     font-weight: bold!important;
     letter-spacing: 4px;
     text-align: center;
+    width: 100%;
 }
 
 #nav-items:hover{
@@ -46,4 +47,11 @@
 }
 #nav-item{
     color: black;
+}
+
+#nav-items:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1.5em;
 }

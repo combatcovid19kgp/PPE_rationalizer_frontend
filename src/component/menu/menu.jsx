@@ -35,6 +35,18 @@ class Menubar extends Component{
                     <span style={{textAlign:'left'}}>LOGS</span>
                     </NavLink>
                 </Nav.Item>
+                <Nav.Item id='nav-items'>
+                    <NavLink id="nav-item" to="/history" activeStyle={{ color: "red" }}>
+                    {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
+                    <span style={{textAlign:'left'}}>HISTORY</span>
+                    </NavLink>
+                </Nav.Item>
+                <Nav.Item id='nav-items'>
+                    <NavLink id="nav-item" to="/Logout" activeStyle={{ color: "red" }}>
+                    {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
+                    <span style={{textAlign:'left'}}>LOGOUT</span>
+                    </NavLink>
+                </Nav.Item>
             </Nav>
         )
     }
