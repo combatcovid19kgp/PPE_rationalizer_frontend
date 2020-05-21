@@ -1,18 +1,22 @@
 .title_header{
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    color: #141417;
     padding: 1em 0.8em;
-    font-size: 2.5em;
-    font-weight: 500;
+    font-size: 3vw;
+    font-weight: 700;
     position: relative;
     left: -1vw;
+    line-height: 1.2;
+    white-space: nowrap;
+    letter-spacing: 1px;
 }
 .main-demand{
     font-family: 'Raleway', sans-serif;
 }
 .nav-tabs a{
-    font-family: 'Open Sans', sans-serif;
-    font-weight:600;
+    font-family: 'Inconsolata', monospace;
+    font-weight:700;
     color: black;
 }
 
@@ -28,5 +32,16 @@
 .nav-tabs{
     border-radius: 20px;
     background: #E1E1E187;
-    width: 90%;
+    width: 80%;
+    float: left;
+}
+
+.create{
+    display: inline-block;
+    float: left;
+    padding: .5rem 1em;
+    font-family: 'Inconsolata', monospace;
+    font-weight:700;
+    margin-right: 15px;
+    font-size: 1.1em;
 }

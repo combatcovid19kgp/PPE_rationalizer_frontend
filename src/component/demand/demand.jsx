@@ -14,6 +14,7 @@ class Demand extends Component{
                     Demand
                 </div>
                 <div className='tabs'>
+                    <div className='create'>Create New</div>
                     <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
                         <Tab eventKey="OA" title="Overall">
 
