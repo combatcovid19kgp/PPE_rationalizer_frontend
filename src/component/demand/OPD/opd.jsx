@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import './opd.css'
-
+import Role from "../Adder/role";
 class Opd extends Component{
+    constructor(props){
+        super(props);
+    }
     render() {
         return(
-            <div>
-                <div className='sub'>
+            <div className='main1'>
+                <div className='sub_header'>
                     Roles
+                </div>
+                <div className='adder'>
+                    <Role/>
                 </div>
             </div>
         )

@@ -1,5 +1,4 @@
 .title_header{
-    /*font-family: 'Ubuntu', sans-serif;*/
     font-family: 'Poppins', sans-serif;
     color: #141417;
     padding: 1em 0.8em;
@@ -32,16 +31,29 @@
 .nav-tabs{
     border-radius: 20px;
     background: #E1E1E187;
-    width: 80%;
-    float: left;
+    margin: 0!important;
+    text-align: right;
+    flex-grow: 0;
+    flex-shrink: 3;
 }
 
-.create{
+.create {
     display: inline-block;
-    float: left;
     padding: .5rem 1em;
     font-family: 'Inconsolata', monospace;
-    font-weight:700;
+    font-weight: 700;
     margin-right: 15px;
     font-size: 1.1em;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.tabs{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tab-content{
+    width: 100%;
+    flex-shrink: 0;
+    margin: 2vw;
 }
