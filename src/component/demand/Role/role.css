@@ -13,21 +13,23 @@
     color: #5B5B5B;
     width: 500px;
     padding: 20px;
-    border:rgba(0, 0, 0, 0.7) solid 1px;
+    margin: 5px 0px;
+    border:rgba(0, 0, 0, 0.3) solid 1.5px;
     text-align: center;
     border-radius: 5px;
     /*background: #E1E1E187;*/
 }
 
 .btn{
-    color: #5B5B5B;
+    color: black;
     background: white;
     border-radius: 5px;
-    border: #282c34 solid 1px;
+    border: rgba(0, 0, 0, 0.3) solid 1.5px;
     font-weight: 600;
 }
 
 .btn-outline-light:hover{
     color: black;
-    border: black solid 1px;
+    border: rgb(38, 132, 255) solid 1px;
+    box-shadow: rgb(38, 132, 255) 0 0 0 1px ;
 }

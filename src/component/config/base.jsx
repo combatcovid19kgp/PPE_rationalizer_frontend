@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {Route,Switch} from "react-router-dom";
 import Menubar from "../menu/menu";
 import Demand from "../demand/demand";
-import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import Home from "../home/home";
+import {Container, Row, Col } from "react-bootstrap";
 import MenuMobile from "../menu/menu_mobile";
 
 
@@ -23,7 +24,7 @@ class Base extends Component{
                                     <Demand/>
                                 </Route>
                                 <Route exact path='/'>
-                                    <div style={{textAlign: 'center'}}>HOME</div>
+                                    <Home/>
                                 </Route>
                             </Switch>
                         </Col>
@@ -41,7 +42,7 @@ class Base extends Component{
                             <Demand/>
                         </Route>
                         <Route exact path='/'>
-                            <div style={{textAlign:'center'}}>HOME</div>
+                            <Home/>
                         </Route>
                     </Switch>
                 </main>
