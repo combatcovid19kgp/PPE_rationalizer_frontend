@@ -4,7 +4,7 @@ import './demand.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tab from "react-bootstrap/Tab";
 import Opd from "./OPD/opd";
-
+import Overall from "./Overall/over_all";
 
 class Demand extends Component{
     render() {
@@ -17,7 +17,7 @@ class Demand extends Component{
                     <div className='create'>Create New</div>
                     <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
                         <Tab eventKey="OA" title="Overall">
-
+                           <Overall/>
                         </Tab>
                         <Tab eventKey="OPD" title="OPD">
                             <Opd/>
