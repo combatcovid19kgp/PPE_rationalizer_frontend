@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './opd.css'
 import Role from "../Role/role";
 class Opd extends Component{
-    constructor(props){
-        super(props);
-    }
     render() {
         return(
             <div className='main1'>

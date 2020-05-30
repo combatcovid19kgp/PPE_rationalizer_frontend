@@ -44,7 +44,17 @@ class Role extends Component{
         this.state.roles.forEach((item) => {
             cards.push(
                     <div className='flex-item-adder' key={shortid.generate()} data-key={shortid.generate()} style={{textAlign:'left'}}>
-                            <span className='items'>{item.role} | {item.quantity}</span>
+                        <div className='items'>{item.role} | {item.quantity}</div>
+                        <div className='flex-container1'>
+                            <div className='containers'>
+                                <div className='circle-containers'>10</div>
+                                Apron
+                            </div>
+                            <div className='containers'>
+                                <div className='circle-containers'>1000</div>
+                                Phenyl
+                            </div>
+                        </div>
                     </div>
             )
         });
