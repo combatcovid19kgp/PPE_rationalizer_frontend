@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Adder/role.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Adder/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/OPD/opd.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/OPD/opd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,7 @@
       <workItem from="1589983950276" duration="30160000" />
       <workItem from="1590180732294" duration="16502000" />
       <workItem from="1590263173893" duration="13134000" />
-      <workItem from="1590661882424" duration="588000" />
+      <workItem from="1590661882424" duration="29670000" />
     </task>
     <servers />
   </component>
