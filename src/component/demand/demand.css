@@ -1,0 +1,59 @@
+.title_header{
+    font-family: 'Poppins', sans-serif;
+    color: #141417;
+    padding: 1em 0.8em;
+    font-size: 3vw;
+    font-weight: 700;
+    position: relative;
+    left: -1vw;
+    line-height: 1.2;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+.main-demand{
+    font-family: 'Raleway', sans-serif;
+}
+.nav-tabs a{
+    font-family: 'Inconsolata', monospace;
+    font-weight:700;
+    color: black;
+}
+
+.nav-link.active{
+    border-color: #E1E1E187 #E1E1E187 white !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav-link:hover{
+    border-color: #E1E1E187 #E1E1E187 white !important;
+}
+
+.nav-tabs{
+    border-radius: 20px;
+    background: #E1E1E187;
+    margin: 0!important;
+    text-align: right;
+    flex-grow: 0;
+    flex-shrink: 3;
+}
+
+.create {
+    display: inline-block;
+    padding: .5rem 1em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin-right: 15px;
+    font-size: 1.1em;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.tabs{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tab-content{
+    width: 100%;
+    flex-shrink: 0;
+    margin: 2vw;
+}

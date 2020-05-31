@@ -1,0 +1,20 @@
+
+.sub_header{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #5B5B5B;
+    margin-bottom: 10px;
+    position: relative;
+    left: 1em;
+}
+
+.main1{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.adder{
+    margin: 10px;
+}
