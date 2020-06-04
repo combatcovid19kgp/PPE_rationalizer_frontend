@@ -29,7 +29,7 @@ class Role extends Component{
                 role : previousState.roleValue.value,
                 quantity : previousState.numValue,
             }],
-            roleValue: [],
+            roleValue: '',
             numValue: ''
         }))
     }
@@ -58,6 +58,7 @@ class Role extends Component{
                     </div>
             )
         });
+        let disabled = (this.state.numValue === '' || this.state.roleValue === '');
         return(
             <div className='flex-container'>
                 {cards}
@@ -68,7 +69,7 @@ class Role extends Component{
                     <div className='select-box1'>
                         <input type='Number' name='numValue' className='input' onChange={this.handleInput} value={this.state.numValue}/>
                     </div>
-                    <Button variant="outline-light" onClick={() =>this.handleClick()}>Add Role</Button>
+                    <Button variant="light" onClick={() =>this.handleClick()} disabled={disabled}>Add Role</Button>
                 </div>
             </div>
         )

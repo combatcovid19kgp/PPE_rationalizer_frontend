@@ -29,11 +29,13 @@
     margin: 0 10px;
 }
 
-.btn-outline-light:hover{
-    color: black;
-    border: rgb(38, 132, 255) solid 1px;
-    box-shadow: rgb(38, 132, 255) 0 0 0 1px ;
-}
+/*.btn-light:hover {*/
+/*    color: #212529;*/
+/*    background-color: #e2e6ea;*/
+/*    border: rgb(38, 132, 255) solid 1px;*/
+/*    box-shadow: rgb(38, 132, 255) 0 0 0 1px ;*/
+/*}*/
+
 
 .select-box{
     display: inline-block;
