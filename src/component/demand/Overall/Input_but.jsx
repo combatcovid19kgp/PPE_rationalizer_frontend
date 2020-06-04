@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Button from 'react-bootstrap/Button';
+import './input_button.css'
 
 class Inputbut extends React.Component {
     constructor(props) {
@@ -44,9 +45,9 @@ class Inputbut extends React.Component {
     render() {
       return ( 
         <div>
-        <button onClick={this.IncrementItem}>+</button>
+        <Button onClick={this.IncrementItem} size='sm' className='button'>+</Button>
         <input size="1" value={this.state.quantity} onChange={this.handleChange} className="center"/>
-        <button onClick = {this.DecreaseItem}>-</button>
+        <Button onClick = {this.DecreaseItem} size='sm' className='button'>-</Button>
         </div>
       );
     }

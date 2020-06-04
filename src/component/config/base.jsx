@@ -11,7 +11,7 @@ import MenuMobile from "../menu/menu_mobile";
 class Base extends Component{
     render() {
         let width = window.innerWidth;
-        if (width>768) {
+        if (width>=768) {
             return (
                 <Container fluid>
                     <Row>
