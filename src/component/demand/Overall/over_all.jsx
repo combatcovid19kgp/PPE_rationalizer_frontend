@@ -6,14 +6,9 @@ import './over_all.css';
 
 
 class Overall extends Component{
-    constructor(props){
-        super(props);
-    }
     render() {
         return(
             <>
-            <div>
-             
             <Table striped bordered hover>
               <thead>
               <tr>
@@ -26,7 +21,6 @@ class Overall extends Component{
                 <th colspan="2" className="center">Total</th>
              </tr>
              </thead>
-
              <tbody>
              <tr>
                 <td>Gloves</td>
@@ -203,14 +197,11 @@ class Overall extends Component{
              </tr>
              </tbody>
             </Table>
-            </div>
-            
             <center>
-            <Button variant="outline-dark"> <b>Download as CSV</b></Button>   
+            <Button variant="light"> <b>Download as CSV</b></Button>
             <br></br>
-            <Button variant="outline-dark"><b>Download as pdf</b></Button>
+            <Button variant="light"><b>Download as pdf</b></Button>
             </center>
-            
             </>
         );
     }

@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React from 'react';
 
 
 class Inputbut extends React.Component {
@@ -11,7 +11,6 @@ class Inputbut extends React.Component {
         min: 0
       };
     }
-  
     IncrementItem = () => {
         this.setState(prevState => {
           if(prevState.quantity >=0) {
@@ -22,7 +21,7 @@ class Inputbut extends React.Component {
             return null;
           }
         });
-    }
+    };
     DecreaseItem = () => {
       this.setState(prevState => {
         if(prevState.quantity > 0) {
@@ -33,18 +32,16 @@ class Inputbut extends React.Component {
           return null;
         }
       });
-    }
+    };
     ToggleClick = () => {
       this.setState({
         show: !this.state.show
       });
-    }
+    };
     handleChange = (event) => {
       this.setState({quantity: event.target.value});
-    }
-  
+    };
     render() {
-  
       return ( 
         <div>
         <button onClick={this.IncrementItem}>+</button>
