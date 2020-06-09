@@ -5,6 +5,7 @@ import Home from "../home/home";
 import {Container, Row, Col } from "react-bootstrap";
 import MenuMobile from "../menu/menu_mobile";
 import Demand from "../demand/demand";
+import Log from "../Logs/logs";
 
 // const Demand = lazy(()=>import('../demand/demand'));
 
@@ -24,6 +25,9 @@ class Base extends Component{
                         </Col>
                         <Col xs={10} id="page-content-wrapper">
                             <Switch>
+                                <Route path='/ConsumeLogs'>
+                                    <Log/>
+                                </Route>
                                 <Route path='/demand'>
                                     <Demand/>
                                 </Route>

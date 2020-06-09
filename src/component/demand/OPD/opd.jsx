@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import './opd.css'
 import Role from "../Role/role";
+import DateViewer from "../../helpers/Date.Viewer";
+
 
 class Opd extends Component{
     render() {
         return(
             <React.Fragment>
-                <div className='date-viewer'>
-                    <span className='date-main'>
-                        <i className="far fa-calendar fa-lg"/>
-                        <span className='date'>01/01/2000 - 01/01/2000</span>
-                    </span>
-                </div>
+                <DateViewer/>
                 <div className='main1'>
                     <div className='sub_header'>
                         Roles
