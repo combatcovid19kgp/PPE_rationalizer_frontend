@@ -11,10 +11,23 @@
 
 .main1{
     position: relative;
+    margin: 1em 0;
     display: inline-block;
+}
+
+.adder {
     margin: 10px;
 }
 
-.adder{
+.date-viewer{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.date{
+    font-family: 'Titillium Web', sans-serif;
+    color: #5B5B5B;
     margin: 10px;
+    font-size: 0.85em;
+    font-weight: 600;
 }

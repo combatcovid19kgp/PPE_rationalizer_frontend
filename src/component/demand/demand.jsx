@@ -10,7 +10,7 @@ class Demand extends Component{
     render() {
         return(
             <div id='main-demand'>
-                <div className='title_header'>
+                <div className='title_head'>
                     Demand
                 </div>
                 <div className='tabs'>

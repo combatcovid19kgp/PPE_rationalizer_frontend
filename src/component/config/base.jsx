@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense, lazy } from 'react';
 import {Route,Switch} from "react-router-dom";
 import Menubar from "../menu/menu";
-import Demand from "../demand/demand";
 import Home from "../home/home";
 import {Container, Row, Col } from "react-bootstrap";
 import MenuMobile from "../menu/menu_mobile";
+import Demand from "../demand/demand";
 
+// const Demand = lazy(()=>import('../demand/demand'));
 
+// const fallback = () =>(
+//     <div>Loading</div>
+// );
 
 class Base extends Component{
     render() {
