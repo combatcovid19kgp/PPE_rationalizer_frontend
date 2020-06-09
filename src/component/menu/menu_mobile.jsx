@@ -39,6 +39,10 @@ class MenuMobile extends Component {
                     {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
                     <span style={{textAlign:'left'}}>LOGS</span>
                     </NavLink>
+                    <NavLink id="consumeLogs" to="/history" activeStyle={{ color: "red" }} onClick={() => this.closeMenu()}>
+                    {/*<i className="fa fa-file-text-o" aria-hidden="true"/>*/}
+                    <span style={{textAlign:'left'}}>HISTORY</span>
+                    </NavLink>
             </Menu>
         )
     }
