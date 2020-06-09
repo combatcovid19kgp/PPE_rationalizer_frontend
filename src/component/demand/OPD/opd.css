@@ -31,3 +31,10 @@
     font-size: 0.85em;
     font-weight: 600;
 }
+
+.date-main{
+    padding: 0.7em;
+    border: #5B5B5B;
+    border-radius: 15px;
+    background: #E1E1E187;
+}
