@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Inputbut from './Input_but';
+import DateViewer from "../../helpers/Date.Viewer";
 import './over_all.css';
 
 
@@ -9,199 +10,200 @@ class Overall extends Component{
     render() {
         return(
             <>
-            <Table striped bordered hover>
-              <thead>
-              <tr>
-                <th className="center">Item</th>
-                <th colspan="2" className="center">ICU</th>
-                <th colspan="2" className="center">OPD</th>
-                <th colspan="2" className="center">Quarantine</th>
-                <th colspan="2" className="center">Old Age Center</th>
-                <th colspan="2" className="center">Medical Store</th>
-                <th colspan="2" className="center">Total</th>
-             </tr>
-             </thead>
-             <tbody>
-             <tr>
-                <td>Gloves</td>
-                <td>56</td>
+                <DateViewer/>
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                            <th className="center">Item</th>
+                            <th colspan="2" className="center">ICU</th>
+                            <th colspan="2" className="center">OPD</th>
+                            <th colspan="2" className="center">Quarantine</th>
+                            <th colspan="2" className="center">Old Age Center</th>
+                            <th colspan="2" className="center">Medical Store</th>
+                            <th colspan="2" className="center">Total</th>
+                        </tr>
+                     </thead>
+                 <tbody>
+                 <tr>
+                    <td>Gloves</td>
+                    <td>56</td>
 
-                <td>
-                <label for="ICU"> </label>
+                    <td>
+                    <label for="ICU"> </label>
 
-                <Inputbut/>
+                    <Inputbut/>
 
-                </td>
+                    </td>
 
-                <td>40</td>
-             
-                <td>
-                <label for="OPD"> </label>
+                    <td>40</td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>
+                    <label for="OPD"> </label>
 
-                <td>96</td>
+                    <Inputbut/>
 
-                <td>
-                <label for="Quarantine"> </label>
+                    </td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>96</td>
 
-                <td>96</td>
+                    <td>
+                    <label for="Quarantine"> </label>
 
-                <td>
-                <label for="Old Age Center"> </label>
+                    <Inputbut/>
 
-                <Inputbut/>
-               
-                </td>
+                    </td>
 
-                <td>96</td>
+                    <td>96</td>
 
-                <td>
-                <label for="Medical Store"> </label>
+                    <td>
+                    <label for="Old Age Center"> </label>
 
-                <Inputbut/>
-               
-                </td>
+                    <Inputbut/>
 
-                <td>96</td>
+                    </td>
 
-                <td>
-                <label for="Total"> </label>
+                    <td>96</td>
 
-                <Inputbut/>
-               
-                </td>
-             </tr>
+                    <td>
+                    <label for="Medical Store"> </label>
 
-             <tr>
+                    <Inputbut/>
 
-                <td>Apron</td>
-                <td>56</td>
+                    </td>
 
-                <td>
-                <label for="ICU"> </label>
+                    <td>96</td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>
+                    <label for="Total"> </label>
 
-                <td>40</td>
+                    <Inputbut/>
 
-                <td>
-                <label for="OPD"> </label>
+                    </td>
+                 </tr>
 
-                <Inputbut/>
-               
-                </td>
+                 <tr>
 
-                <td>96</td>
+                    <td>Apron</td>
+                    <td>56</td>
 
-                <td>
-                <label for="Quarantine"> </label>
+                    <td>
+                    <label for="ICU"> </label>
 
-                <Inputbut/>
-               
-                </td>
+                    <Inputbut/>
 
-                <td>96</td>
+                    </td>
 
-                <td>
-                <label for="Old Age Center"> </label>
+                    <td>40</td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>
+                    <label for="OPD"> </label>
 
-                <td>96</td>
+                    <Inputbut/>
 
-                <td>
-                <label for="Medical Store"> </label>
+                    </td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>96</td>
 
-                <td>96</td>
+                    <td>
+                    <label for="Quarantine"> </label>
 
-                <td>                  
-                <label for="Total"> </label>
+                    <Inputbut/>
 
-                <Inputbut/>
-               
-                </td>
-             </tr>
+                    </td>
 
-             <tr>
-                <td>Phenyl(in ml)</td>
-                <td>56</td>
-                
-                <td>
-                <label for="ICU"> </label>
+                    <td>96</td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>
+                    <label for="Old Age Center"> </label>
 
-                <td>40</td>
+                    <Inputbut/>
 
-                <td>
-                <label for="OPD"> </label>
+                    </td>
 
-                <Inputbut/>
-               
-                </td>
+                    <td>96</td>
 
-                <td>96</td>
+                    <td>
+                    <label for="Medical Store"> </label>
 
-                <td>
-                <label for="Quarantine"> </label>
+                    <Inputbut/>
 
-                <Inputbut/>
-               
-                </td>
+                    </td>
 
-                <td>96</td>
+                    <td>96</td>
 
-                <td>
-                <label for="Old Age Center"> </label>
+                    <td>
+                    <label for="Total"> </label>
 
-                <Inputbut/>  
-               
-                </td>
+                    <Inputbut/>
 
-                <td>96</td>
+                    </td>
+                 </tr>
 
-                <td>
+                 <tr>
+                    <td>Phenyl(in ml)</td>
+                    <td>56</td>
 
-                <label for="Medical Store"> </label>
+                    <td>
+                    <label for="ICU"> </label>
 
-                <Inputbut/>
-               
-                </td>
+                    <Inputbut/>
 
-                <td>96</td>
+                    </td>
 
-                <td>
+                    <td>40</td>
 
-                <label for="Total"> </label>
+                    <td>
+                    <label for="OPD"> </label>
 
-                <Inputbut/>
-               
-                </td>
-             </tr>
-             </tbody>
-            </Table>
-            <center>
-            <Button variant="light"> <b>Download as CSV</b></Button>
-            <br></br>
-            <Button variant="light"><b>Download as pdf</b></Button>
-            </center>
+                    <Inputbut/>
+
+                    </td>
+
+                    <td>96</td>
+
+                    <td>
+                    <label for="Quarantine"> </label>
+
+                    <Inputbut/>
+
+                    </td>
+
+                    <td>96</td>
+
+                    <td>
+                    <label for="Old Age Center"> </label>
+
+                    <Inputbut/>
+
+                    </td>
+
+                    <td>96</td>
+
+                    <td>
+
+                    <label for="Medical Store"> </label>
+
+                    <Inputbut/>
+
+                    </td>
+
+                    <td>96</td>
+
+                    <td>
+
+                    <label for="Total"> </label>
+
+                    <Inputbut/>
+
+                    </td>
+                 </tr>
+                 </tbody>
+                </Table>
+                <center>
+                <Button variant="light"> <b>Download as CSV</b></Button>
+                <br></br>
+                <Button variant="light"><b>Download as pdf</b></Button>
+                </center>
             </>
         );
     }
