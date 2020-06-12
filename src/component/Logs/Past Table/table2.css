@@ -1,4 +1,4 @@
-.table-container{
+.table-container1{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     font-size: 1em;
@@ -6,7 +6,8 @@
     margin: 1em;
     display: inline-block;
     min-width: min-content;
-    width: 30%;
+    width: 50%;
+    float: right;
 }
 .table{
     font-weight: 600;

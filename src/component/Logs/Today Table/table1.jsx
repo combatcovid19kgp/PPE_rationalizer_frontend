@@ -1,11 +1,12 @@
 import React,{Component} from "react";
 import Table from 'react-bootstrap/Table';
+import './table1.css'
 
 class Table1 extends Component{
     render() {
         return(
-            <div>
-                <div>Today's Consumption</div>
+            <div className='table-container'>
+                <div className='table-heading'>Today's Consumption</div>
                 <Table striped hover>
                     <thead>
                         <tr>
