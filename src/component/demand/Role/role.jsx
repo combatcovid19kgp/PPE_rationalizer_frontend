@@ -60,18 +60,23 @@ class Role extends Component{
         });
         let disabled = (this.state.numValue === '' || this.state.roleValue === '');
         return(
-            <div className='flex-container'>
-                {cards}
-                <div className='flex-item-adder'>
-                    <div className='select-box'>
-                        <Select options={options} onChange={this.handleSelect} name = 'roleValue' value={this.state.roleValue}/>
-                    </div>
-                    <div className='select-box1'>
-                        <input type='Number' name='numValue' className='input' onChange={this.handleInput} value={this.state.numValue}/>
-                    </div>
-                    <Button variant="light" onClick={() =>this.handleClick()} disabled={disabled}>Add Role</Button>
+            <React.Fragment>
+                <div className='sub_header'>
+                            Roles
                 </div>
-            </div>
+                <div className='flex-container'>
+                    {cards}
+                    <div className='flex-item-adder'>
+                        <div className='select-box'>
+                            <Select options={options} onChange={this.handleSelect} name = 'roleValue' value={this.state.roleValue}/>
+                        </div>
+                        <div className='select-box1'>
+                            <input type='Number' name='numValue' className='input' onChange={this.handleInput} value={this.state.numValue}/>
+                        </div>
+                        <Button variant="light" onClick={() =>this.handleClick()} disabled={disabled}>Add Role</Button>
+                    </div>
+                </div>
+            </React.Fragment>
         )
     }
 }

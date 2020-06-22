@@ -15,188 +15,42 @@ class Overall extends Component{
                     <thead>
                         <tr>
                             <th className="center">Item</th>
-                            <th colspan="2" className="center">ICU</th>
-                            <th colspan="2" className="center">OPD</th>
-                            <th colspan="2" className="center">Quarantine</th>
-                            <th colspan="2" className="center">Old Age Center</th>
-                            <th colspan="2" className="center">Medical Store</th>
-                            <th colspan="2" className="center">Total</th>
+                            <th className="center">ICU</th>
+                            <th className="center">OPD</th>
+                            <th className="center">Quarantine</th>
+                            <th className="center">Old Age Center</th>
+                            <th className="center">Medical Store</th>
+                            <th className="center">Total</th>
                         </tr>
-                     </thead>
-                 <tbody>
-                 <tr>
-                    <td>Gloves</td>
-                    <td>56</td>
-
-                    <td>
-                    <label for="ICU"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>40</td>
-
-                    <td>
-                    <label for="OPD"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Quarantine"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Old Age Center"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Medical Store"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Total"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-                 </tr>
-
-                 <tr>
-
-                    <td>Apron</td>
-                    <td>56</td>
-
-                    <td>
-                    <label for="ICU"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>40</td>
-
-                    <td>
-                    <label for="OPD"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Quarantine"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Old Age Center"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Medical Store"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Total"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-                 </tr>
-
-                 <tr>
-                    <td>Phenyl(in ml)</td>
-                    <td>56</td>
-
-                    <td>
-                    <label for="ICU"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>40</td>
-
-                    <td>
-                    <label for="OPD"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Quarantine"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-                    <label for="Old Age Center"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-
-                    <label for="Medical Store"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-
-                    <td>96</td>
-
-                    <td>
-
-                    <label for="Total"> </label>
-
-                    <Inputbut/>
-
-                    </td>
-                 </tr>
+                    </thead>
+                    <tbody>
+                     <tr>
+                        <td>Gloves</td>
+                        <td>56</td>
+                        <td>40</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                     </tr>
+                     <tr>
+                        <td>Apron</td>
+                        <td>56</td>
+                        <td>40</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                     </tr>
+                     <tr>
+                        <td>Phenyl(in ml)</td>
+                        <td>56</td>
+                        <td>40</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>96</td>
+                     </tr>
                  </tbody>
                 </Table>
                 <center>
