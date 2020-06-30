@@ -7,7 +7,7 @@ class Table2 extends Component{
         return(
             <div className='table-container1'>
                 <div className='table-heading'>Past Consumption</div>
-                <Table striped hover>
+                <Table striped hover bordered>
                     <thead>
                         <tr>
                             <th/>

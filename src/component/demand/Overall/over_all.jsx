@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
-import Inputbut from './Input_but';
 import DateViewer from "../../helpers/Date.Viewer";
 import './over_all.css';
 

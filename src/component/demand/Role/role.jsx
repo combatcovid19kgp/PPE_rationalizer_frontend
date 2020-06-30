@@ -3,6 +3,7 @@ import './role.css'
 import Button from 'react-bootstrap/Button'
 import shortid from 'shortid';
 import Select from 'react-select'
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 const options =[
     { value: 'Doctors', label: 'Doctors' },
@@ -28,6 +29,7 @@ class Role extends Component{
             roles: [...previousState.roles,{
                 role : previousState.roleValue.value,
                 quantity : previousState.numValue,
+                id : shortid.generate(),
             }],
             roleValue: '',
             numValue: ''
@@ -43,7 +45,12 @@ class Role extends Component{
         let cards = [];
         this.state.roles.forEach((item) => {
             cards.push(
-                    <div className='flex-item-adder' key={shortid.generate()} data-key={shortid.generate()} style={{textAlign:'left'}}>
+                <CSSTransition
+                    timeout={300}
+                    classNames="item"
+                    key={item.id}  data-key={item.id}
+                >
+                    <div className='flex-item' style={{textAlign:'left'}}>
                         <div className='items'>{item.role} | {item.quantity}</div>
                         <div className='flex-container1'>
                             <div className='containers'>
@@ -56,27 +63,32 @@ class Role extends Component{
                             </div>
                         </div>
                     </div>
+                </CSSTransition>
             )
         });
         let disabled = (this.state.numValue === '' || this.state.roleValue === '');
         return(
-            <React.Fragment>
-                <div className='sub_header'>
-                            Roles
-                </div>
-                <div className='flex-container'>
-                    {cards}
-                    <div className='flex-item-adder'>
-                        <div className='select-box'>
-                            <Select options={options} onChange={this.handleSelect} name = 'roleValue' value={this.state.roleValue}/>
+            <div className='main1'>
+                <div className='adder'>
+                    <div className='sub_header'>
+                                Roles
+                    </div>
+                    <div className='flex-container'>
+                        <TransitionGroup>
+                          {cards}
+                        </TransitionGroup>
+                        <div className='flex-item'>
+                            <div className='select-box'>
+                                <Select options={options} onChange={this.handleSelect} name = 'roleValue' value={this.state.roleValue} menuPlacement="auto"/>
+                            </div>
+                            <div className='select-box1'>
+                                <input type='Number' name='numValue' className='input' onChange={this.handleInput} value={this.state.numValue}/>
+                            </div>
+                            <Button variant="light" onClick={this.handleClick} disabled={disabled}>Add Role</Button>
                         </div>
-                        <div className='select-box1'>
-                            <input type='Number' name='numValue' className='input' onChange={this.handleInput} value={this.state.numValue}/>
-                        </div>
-                        <Button variant="light" onClick={() =>this.handleClick()} disabled={disabled}>Add Role</Button>
                     </div>
                 </div>
-            </React.Fragment>
+            </div>
         )
     }
 }
