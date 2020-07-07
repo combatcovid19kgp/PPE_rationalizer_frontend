@@ -8,10 +8,11 @@
         padding: 48px 0 0;
         box-shadow: inset -1px 0 0 rgba(0, 0, 0, .3);
         background: #E1E1E187;
+        max-width: min-content;
     }
 #sidebar-wrapper{
         min-height: 100vh !important;
-        width: 100vw;
+        /*width: 100vw;*/
         margin-left: -1rem;
         -webkit-transition: margin .25s ease-out;
         -moz-transition: margin .25s ease-out;
