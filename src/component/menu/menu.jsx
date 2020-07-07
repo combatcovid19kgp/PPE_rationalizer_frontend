@@ -13,7 +13,7 @@ class Menubar extends Component {
 	}
 	render() {
 		return (
-			<Nav className="Menu col-md-12 d-none d-md-block sidebar">
+			<Nav className="col-md-12 d-none d-md-block sidebar">
 				<Nav.Item id="nav-items">
 					<NavLink exact id="nav-item" to="/" activeStyle={{ color: "red" }}>
 						<span style={{ fontWeight: "bold" }}>HOME</span>
