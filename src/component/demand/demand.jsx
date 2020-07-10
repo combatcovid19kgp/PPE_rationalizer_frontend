@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Tabs from 'react-bootstrap/Tabs'
 import './demand.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Tabs from 'react-bootstrap/Tabs'
 import Tab from "react-bootstrap/Tab";
 import Opd from "./OPD/opd";
 import Overall from "./Overall/over_all";

@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import "./date.css";
+import RangePicker from "react-range-picker"
+
 
 class DateViewer extends Component {
 	render() {
 		return (
 			<div className="date-viewer">
 				<span className="date-main">
-					<i className="far fa-calendar fa-lg" />
-					<span className="date">01/01/2000 - 01/01/2000</span>
+					<span className="date">
+						<RangePicker/>
+					</span>
 				</span>
 			</div>
 		);
