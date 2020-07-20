@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./date.css";
-import RangePicker from "react-range-picker"
+import RangePicker from 'react-range-picker';
 
 
 class DateViewer extends Component {
