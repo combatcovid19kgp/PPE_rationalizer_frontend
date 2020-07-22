@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/helpers/Date.Viewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/helpers/Date.Viewer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/helpers/date.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/helpers/date.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,9 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\shiba\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github\PPE_rationalizer\src\component\assets\images" />
@@ -124,7 +126,8 @@
       <workItem from="1594148341298" duration="3258000" />
       <workItem from="1594311781681" duration="11744000" />
       <workItem from="1594368474191" duration="7773000" />
-      <workItem from="1595266974968" duration="7977000" />
+      <workItem from="1595266974968" duration="8185000" />
+      <workItem from="1595342526038" duration="11806000" />
     </task>
     <servers />
   </component>
@@ -220,5 +223,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1595269035631" />
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595362444150">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.864@0.0.1536.864" timestamp="1595362444150" />
   </component>
 </project>

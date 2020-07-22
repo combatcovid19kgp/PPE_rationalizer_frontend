@@ -3,6 +3,8 @@ import "./role.css";
 import Button from "react-bootstrap/Button";
 import shortid from "shortid";
 import Select from "react-select";
+import delete_icon from "../../assets/images/icons8-delete.svg";
+import edit_icon from "../../assets/images/icons8-edit.svg";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const options = [
@@ -23,6 +25,13 @@ class Role extends Component {
 		this.handleClick = this.handleClick.bind(this);
 		this.handleSelect = this.handleSelect.bind(this);
 		this.handleInput = this.handleInput.bind(this);
+		this.handleDelete = this.handleDelete.bind(this);
+	}
+	handleDelete(id) {
+		this.setState(previousState =>({
+			roles: previousState.roles.filter(x => x.id !== id)
+		}));
+		console.log("delete");
 	}
 	handleClick() {
 		this.setState((previousState) => ({
@@ -61,6 +70,15 @@ class Role extends Component {
 					<div className="flex-item" style={{ textAlign: "left" }}>
 						<div className="items">
 							{item.role} | {item.quantity}
+							<div className="icons edit">
+								<img src={edit_icon} alt="edit" />
+							</div>
+							<div
+								className="icons delete"
+								onClick={() => { this.handleDelete(item.id) }}
+							>
+								<img src={delete_icon} alt="delete" />
+							</div>
 						</div>
 						<div className="flex-container1">
 							<div className="containers">
@@ -80,7 +98,6 @@ class Role extends Component {
 		return (
 			<div className="main1">
 				<div className="adder">
-					<div className="sub_header">Roles</div>
 					<div className="flex-container">
 						<TransitionGroup>{cards}</TransitionGroup>
 						<div className="flex-item">
