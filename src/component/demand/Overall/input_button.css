@@ -7,3 +7,15 @@
 .button {
 	margin: 0 5px !important;
 }
+.input_b{
+	width: 60px;
+	border: rgba(0, 0, 0, 0.3) solid 1.5px;
+	border-radius: 5px;
+	text-align: center;
+}
+.input_b:focus{
+	border-color: #2684ff;
+}
+.input_b::-webkit-outer-spin-button, .input_b::-webkit-inner-spin-button{
+	opacity: 1;
+}

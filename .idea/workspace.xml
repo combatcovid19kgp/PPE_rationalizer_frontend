@@ -4,8 +4,9 @@
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,9 @@
       <workItem from="1594311781681" duration="11744000" />
       <workItem from="1594368474191" duration="7773000" />
       <workItem from="1595266974968" duration="8185000" />
-      <workItem from="1595342526038" duration="11806000" />
+      <workItem from="1595342526038" duration="14079000" />
+      <workItem from="1595425264430" duration="613000" />
+      <workItem from="1595628505789" duration="6933000" />
     </task>
     <servers />
   </component>

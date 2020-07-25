@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Table from "react-bootstrap/Table";
-import Inputbut from "../Overall/Input_but";
 
 class Table3 extends Component {
 	render() {
@@ -26,45 +25,72 @@ class Table3 extends Component {
 							<td>Gloves</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 						</tr>
 						<tr>
 							<td>Apron</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 						</tr>
 						<tr>
 							<td>Phenyl</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 							<td>48</td>
 							<td>
-								<Inputbut />
+								<input type="Number"
+									name="numValue"
+									className="input_b"
+								/>
 							</td>
 						</tr>
 					</tbody>

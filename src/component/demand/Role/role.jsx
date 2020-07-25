@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./role.css";
 import Button from "react-bootstrap/Button";
-import shortid from "shortid";
 import Select from "react-select";
 import delete_icon from "../../assets/images/icons8-delete.svg";
 import edit_icon from "../../assets/images/icons8-edit.svg";
@@ -18,48 +17,32 @@ class Role extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			roles: [],
 			roleValue: "",
 			numValue: "",
 		};
 		this.handleClick = this.handleClick.bind(this);
 		this.handleSelect = this.handleSelect.bind(this);
 		this.handleInput = this.handleInput.bind(this);
-		this.handleDelete = this.handleDelete.bind(this);
-	}
-	handleDelete(id) {
-		this.setState(previousState =>({
-			roles: previousState.roles.filter(x => x.id !== id)
-		}));
-		console.log("delete");
 	}
 	handleClick() {
-		this.setState((previousState) => ({
-			roles: [
-				...previousState.roles,
-				{
-					role: previousState.roleValue.value,
-					quantity: previousState.numValue,
-					id: shortid.generate(),
-				},
-			],
+		const {roleValue, numValue} = this.state;
+		this.props.handleRoleAdd(roleValue, numValue);
+		this.setState(({
 			roleValue: "",
 			numValue: "",
 		}));
 	}
-	handleSelect(selectedOption) {
-		this.setState({ roleValue: selectedOption }, () =>
-			console.log(this.state.roleValue)
-		);
+	handleSelect(selectedOption, event) {
+		this.setState({ roleValue: selectedOption })
+		console.log(event.target)
 	}
 	handleInput(event) {
-		this.setState({ numValue: event.target.value }, () =>
-			console.log(this.state.numValue)
-		);
+		this.setState({ numValue: event.target.value });
+		console.log(event.target)
 	}
 	render() {
 		let cards = [];
-		this.state.roles.forEach((item) => {
+		this.props.roles.forEach((item) => {
 			cards.push(
 				<CSSTransition
 					timeout={300}
@@ -75,7 +58,7 @@ class Role extends Component {
 							</div>
 							<div
 								className="icons delete"
-								onClick={() => { this.handleDelete(item.id) }}
+								onClick={() => { this.props.handleRoleDelete(item.id) }}
 							>
 								<img src={delete_icon} alt="delete" />
 							</div>
