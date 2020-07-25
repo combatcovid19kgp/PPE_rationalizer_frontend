@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Table from "react-bootstrap/Table";
+import '../Overall/input_button.css'
 
 class Table3 extends Component {
 	render() {
