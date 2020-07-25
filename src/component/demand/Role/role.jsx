@@ -53,7 +53,10 @@ class Role extends Component {
 					<div className="flex-item" style={{ textAlign: "left" }}>
 						<div className="items">
 							{item.role} | {item.quantity}
-							<div className="icons edit">
+							<div
+								className="icons edit"
+								onClick={() => {this.props.showModal(item.id)}}
+							>
 								<img src={edit_icon} alt="edit" />
 							</div>
 							<div

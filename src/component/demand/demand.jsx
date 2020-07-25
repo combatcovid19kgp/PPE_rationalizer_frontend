@@ -3,7 +3,7 @@ import './demand.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from "react-bootstrap/Tab";
-import Opd from "./OPD/opd";
+import DemandViewer from "./Demand_Viewer/demand_Viewer";
 import Overall from "./Overall/over_all";
 
 class Demand extends Component{
@@ -20,7 +20,7 @@ class Demand extends Component{
                            <Overall/>
                         </Tab>
                         <Tab eventKey="OPD" title="OPD">
-                            <Opd/>
+                            <DemandViewer scenario = {'Demand_Viewer'}/>
                         </Tab>
                         <Tab eventKey="QT" title="Quarantine">
 

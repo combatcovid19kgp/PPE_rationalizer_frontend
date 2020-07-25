@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/OPD/opd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Demand_Viewer/demand_Viewer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/demand.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/demand.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,7 +129,7 @@
       <workItem from="1595266974968" duration="8185000" />
       <workItem from="1595342526038" duration="14079000" />
       <workItem from="1595425264430" duration="613000" />
-      <workItem from="1595628505789" duration="7555000" />
+      <workItem from="1595628505789" duration="17129000" />
     </task>
     <servers />
   </component>
