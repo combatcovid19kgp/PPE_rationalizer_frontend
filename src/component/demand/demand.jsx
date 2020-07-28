@@ -20,7 +20,7 @@ class Demand extends Component{
                            <Overall/>
                         </Tab>
                         <Tab eventKey="OPD" title="OPD">
-                            <DemandViewer scenario = {'Demand_Viewer'}/>
+                            <DemandViewer scenario = {'OPD'}/>
                         </Tab>
                         <Tab eventKey="QT" title="Quarantine">
 
