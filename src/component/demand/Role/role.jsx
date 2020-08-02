@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./role.css";
 import Button from "react-bootstrap/Button";
 import Select from "react-select";
-import delete_icon from "../../assets/images/icons8-delete.svg";
-import edit_icon from "../../assets/images/icons8-edit.svg";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+
+import { TransitionGroup } from "react-transition-group";
+import Card from "./Cards/card";
 
 const options = [
 	{ value: "Doctors", label: "Doctors" },
@@ -41,43 +41,13 @@ class Role extends Component {
 	render() {
 		let cards = [];
 		this.props.roles.forEach((item) => {
-			let roleItem = item.items.map((x,index)=>{
-				return(
-					<div className="containers" key={index}>
-						<div className="circle-containers">{x.quantity}</div>
-						{x.item_name}
-					</div>
-				)
-			})
 			cards.push(
-				<CSSTransition
-					timeout={300}
-					classNames="item"
-					key={item.id}
-					data-key={item.id}
-				>
-					<div className="flex-item" style={{ textAlign: "left" }}>
-						<div className="items">
-							{item.role} | {item.quantity}
-							<div
-								className="icons edit"
-								onClick={() => {this.props.showModal(item.id)}}
-							>
-								<img src={edit_icon} alt="edit" />
-							</div>
-							<div
-								className="icons delete"
-								onClick={() => { this.props.handleRoleDelete(item.id) }}
-							>
-								<img src={delete_icon} alt="delete" />
-							</div>
-						</div>
-						<div className="flex-container1">
-							{roleItem}
-						</div>
-					</div>
-				</CSSTransition>
-			);
+				<Card
+					item = {item}
+					showModal ={this.props.showModal}
+					handleRoleDelete = {this.props.handleRoleDelete}
+				/>
+			)
 		});
 		let disabled = this.state.numValue === "" || this.state.roleValue === "";
 		return (
