@@ -34,15 +34,21 @@ class Role extends Component {
 	}
 	handleSelect(selectedOption, event) {
 		this.setState({ roleValue: selectedOption })
-		console.log(event.target)
 	}
 	handleInput(event) {
 		this.setState({ numValue: event.target.value });
-		console.log(event.target)
 	}
 	render() {
 		let cards = [];
 		this.props.roles.forEach((item) => {
+			let roleItem = item.items.map((x,index)=>{
+				return(
+					<div className="containers" key={index}>
+						<div className="circle-containers">{x.quantity}</div>
+						{x.item_name}
+					</div>
+				)
+			})
 			cards.push(
 				<CSSTransition
 					timeout={300}
@@ -67,14 +73,7 @@ class Role extends Component {
 							</div>
 						</div>
 						<div className="flex-container1">
-							<div className="containers">
-								<div className="circle-containers">10</div>
-								Apron
-							</div>
-							<div className="containers">
-								<div className="circle-containers">1000</div>
-								Phenyl
-							</div>
+							{roleItem}
 						</div>
 					</div>
 				</CSSTransition>

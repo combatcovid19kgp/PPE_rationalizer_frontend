@@ -5,7 +5,8 @@ import Table3 from "../Table/table";
 import Save from "../Save/save";
 import shortid from "shortid";
 import ModalEdit from "../Modal/modal";
-import axios from "axios";
+import * as API from "../API/api"
+
 
 class DemandViewer extends Component {
 	constructor(props) {
@@ -17,29 +18,17 @@ class DemandViewer extends Component {
 		};
 	}
 	componentDidMount() {
-		axios
-			.get("http://ppe-rationalizer.herokuapp.com/roleitem/admin/", {
-				params: {
-					scenario: "OPD",
-					role: "Doctors",
-				},
-			})
-			.then(
-				(response) => {
-					console.log(response);
-				},
-				(error) => {
-					console.log(error);
-				}
-			);
+
 	}
-	handleRoleAdd = (roleValue, numValue) => {
+	handleRoleAdd = async (roleValue, numValue) => {
+		let items = await API.getRoleItems(this.props.scenario, roleValue.value)
 		this.setState((previousState) => ({
 			roles: [
 				...previousState.roles,
 				{
 					role: roleValue.value,
 					quantity: numValue,
+					items: items,
 					id: shortid.generate(),
 				},
 			],
@@ -52,15 +41,16 @@ class DemandViewer extends Component {
 	};
 	handleRoleChange = (id, value) => {
 		this.setState((previousState) => ({
-			roles: previousState.roles.map((item) => {
-				if (item.id === id) {
+			roles: previousState.roles.map((x) => {
+				if (x.id === id) {
 					return {
-						role: item.role,
+						role: x.role,
 						quantity: value,
-						id: item.id,
+						id: x.id,
+						items: x.items,
 					};
 				}
-				return item;
+				return x;
 			}),
 		}));
 		this.setState({
