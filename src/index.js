@@ -5,22 +5,6 @@ import Base from "./component/config/base";
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from "react-router-dom";
 
-//amplify 
-import Amplify, { Auth } from 'aws-amplify';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-import awsconfig from './aws-exports';
-Amplify.configure(awsconfig);
-
-const App = () => (
-    <div>
-      <AmplifySignOut />
-      My App
-    </div>
-  );
-  
-  export default withAuthenticator(App);
-
-//
 
 ReactDOM.render(
   <React.StrictMode>
