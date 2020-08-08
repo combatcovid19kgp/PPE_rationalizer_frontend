@@ -40,7 +40,8 @@ class Menubar extends Component {
 				</Nav.Item>
 				<Nav.Item id="nav-items">
 					<NavLink id="nav-item" to="/Logout" activeStyle={{ color: "red" }}>
-						<span style={{ textAlign: "left" }}>LOGOUT</span>
+						/*<span style={{ textAlign: "left" }}>LOGOUT</span>*/
+						<a href="https://pper.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=4q3remuo4qgubo5uqechfu7p8v&redirect_uri=https://ppe-rationalizer.netlify.app&scope=openid+profile+aws.cognito.signin.user.admin" style={{ textAlign: "left" }}>LOGOUT</a>						
 					</NavLink>
 				</Nav.Item>
 			</Nav>
