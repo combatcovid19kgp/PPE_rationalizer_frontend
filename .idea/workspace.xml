@@ -33,12 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/API/api.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Demand_Viewer/demand_Viewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Demand_Viewer/demand_Viewer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/Cards/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/Cards/card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/API/api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/API/api.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +167,7 @@
       <workItem from="1596274401406" duration="12786000" />
       <workItem from="1596533771286" duration="20437000" />
       <workItem from="1596794323966" duration="612000" />
+      <workItem from="1597592458195" duration="692000" />
     </task>
     <servers />
   </component>

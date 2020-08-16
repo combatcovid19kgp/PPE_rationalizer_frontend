@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = "http://ppe-rationalizer.herokuapp.com/roleitem/admin/";
+const BASE_URL = "https://ppe-rationalizer.herokuapp.com/roleitem/admin/";
 
 export const getRoleItems = async (scenario, role) => {
 	console.log(role,scenario);
