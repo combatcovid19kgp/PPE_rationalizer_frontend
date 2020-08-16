@@ -41,6 +41,7 @@ class Menubar extends Component {
 				<Nav.Item id="nav-items">
 					<NavLink id="nav-item" to="/Logout" activeStyle={{ color: "red" }}>
 						<span style={{ textAlign: "left" }}>LOGOUT</span>
+												
 					</NavLink>
 				</Nav.Item>
 			</Nav>
