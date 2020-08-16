@@ -26,7 +26,7 @@ class DemandViewer extends Component {
 			roles: [
 				...previousState.roles,
 				{
-					role: roleValue.value,
+					roleName: roleValue.value,
 					quantity: numValue,
 					items: items,
 					id: shortid.generate(),
@@ -44,7 +44,7 @@ class DemandViewer extends Component {
 			roles: previousState.roles.map((x) => {
 				if (x.id === id) {
 					return {
-						role: x.role,
+						roleName: x.roleName,
 						quantity: value,
 						id: x.id,
 						items: x.items,
@@ -75,7 +75,7 @@ class DemandViewer extends Component {
 					showModal={this.showModal}
 					roles={this.state.roles}
 				/>
-				<Table3 />
+				<Table3 Item={this.state.roles} />
 				<div className="clearfix" />
 				<Save />
 				<ModalEdit

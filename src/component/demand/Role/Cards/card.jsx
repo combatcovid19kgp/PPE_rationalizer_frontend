@@ -22,7 +22,7 @@ class Card extends Component{
 				>
 					<div className="flex-item" style={{ textAlign: "left" }}>
 						<div className="items">
-							{this.props.item.role} | {this.props.item.quantity}
+							{this.props.item.roleName} | {this.props.item.quantity}
 							<div
 								className="icons edit"
 								onClick={() => {this.props.showModal(this.props.item.id)}}

@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="acbb9a81-ea42-4e17-aa69-ddbe7a4bfafb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/API/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/role.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/API/api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Demand_Viewer/demand_Viewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Demand_Viewer/demand_Viewer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Overall/input_button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Role/Cards/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Role/Cards/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/demand/Table/table.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +85,17 @@
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -132,7 +169,9 @@
       <workItem from="1595862051200" duration="22000" />
       <workItem from="1595892108653" duration="3393000" />
       <workItem from="1596020580915" duration="5209000" />
-      <workItem from="1596274401406" duration="12407000" />
+      <workItem from="1596274401406" duration="12786000" />
+      <workItem from="1596533771286" duration="20437000" />
+      <workItem from="1596794323966" duration="612000" />
     </task>
     <servers />
   </component>

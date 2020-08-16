@@ -12,7 +12,7 @@ export const getRoleItems = async (scenario, role) => {
 			},
 		});
 	let itemsArray = response.data;
-	console.log(itemsArray)
+	console.log(itemsArray);
 	return itemsArray;
 }
 
